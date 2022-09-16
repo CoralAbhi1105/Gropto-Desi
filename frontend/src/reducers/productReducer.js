@@ -1,4 +1,7 @@
 import {
+  ALL_ACCESSORIES_FAIL,
+  ALL_ACCESSORIES_REQUEST,
+  ALL_ACCESSORIES_SUCCESS,
   ALL_PRODUCT_FAIL,
   ALL_PRODUCT_REQUEST,
   ALL_PRODUCT_SUCCESS,
@@ -34,6 +37,37 @@ import {
   CLEAR_ERRORS,
 } from "../constants/productConstants";
 
+
+export const accessoriesReducer = (state = { accessories: [] }, action) => {
+  switch (action.type) {
+    case ALL_ACCESSORIES_REQUEST:
+      return {
+        loading: true,
+        accessories: [],
+      };
+    case ALL_ACCESSORIES_SUCCESS:
+      return {
+        loading: false,
+        products: action.payload.products,
+        categories: action.payload.categories
+      };
+
+    case ALL_ACCESSORIES_FAIL:
+      return {
+        loading: false,
+        error: action.payload,
+      };
+    case CLEAR_ERRORS:
+      return {
+        ...state,
+        error: null,
+      };
+    default:
+      return state;
+  }
+};
+
+
 export const productsReducer = (state = { products: [] }, action) => {
   switch (action.type) {
     case ALL_PRODUCT_REQUEST:
@@ -46,9 +80,10 @@ export const productsReducer = (state = { products: [] }, action) => {
       return {
         loading: false,
         products: action.payload.products,
+        categories: action.payload.categories,
         productsCount: action.payload.productsCount,
         resultPerPage: action.payload.resultPerPage,
-        filteredProductsCount: action.payload.filteredProductsCount,
+        filteredProductsCount: action.payload.filteredProductsCount
       };
 
     case ADMIN_PRODUCT_SUCCESS:

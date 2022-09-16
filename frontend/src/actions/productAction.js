@@ -1,6 +1,9 @@
 import axios from "axios";
 
 import {
+  ALL_ACCESSORIES_FAIL,
+  ALL_ACCESSORIES_REQUEST,
+  ALL_ACCESSORIES_SUCCESS,
   ALL_PRODUCT_FAIL,
   ALL_PRODUCT_REQUEST,
   ALL_PRODUCT_SUCCESS,
@@ -30,6 +33,27 @@ import {
   DELETE_REVIEW_FAIL,
   CLEAR_ERRORS,
 } from "../constants/productConstants";
+
+
+// Get All Products
+export const getAccessories = () => async (dispatch) => {
+    try {
+      dispatch({ type: ALL_ACCESSORIES_REQUEST });
+
+      const { data } = await axios.get("/api/v1/accessories");
+
+      dispatch({
+        type: ALL_ACCESSORIES_SUCCESS,
+        payload: data,
+      });
+    } catch (error) {
+      dispatch({
+        type: ALL_ACCESSORIES_FAIL,
+        payload: error.response.data.message,
+      });
+    }
+  };
+
 
 // Get All Products
 export const getProduct =

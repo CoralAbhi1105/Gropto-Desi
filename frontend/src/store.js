@@ -8,8 +8,10 @@ import {
   productReducer,
   productReviewsReducer,
   productsReducer,
+  accessoriesReducer,
   reviewReducer,
 } from "./reducers/productReducer";
+
 
 import {
   allUsersReducer,
@@ -29,6 +31,7 @@ import {
 } from "./reducers/orderReducer";
 
 const reducer = combineReducers({
+  accessories: accessoriesReducer,
   products: productsReducer,
   productDetails: productDetailsReducer,
   user: userReducer,

@@ -1,4 +1,5 @@
 const Product = require("../models/productModel");
+const Category = require("../models/categoryModel");
 const ErrorHander = require("../utils/errorhander");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const ApiFeatures = require("../utils/apifeatures");
@@ -38,7 +39,22 @@ exports.createProduct = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Get All Product
+
+exports.getAllAccessories = catchAsyncErrors(async (req, res, next) => {
+    
+  let products = await Product.find();
+  let categories = await Category.find();
+
+  res.status(200).json({
+        success: true,
+        products, 
+        categories
+      });
+})
+
+
+
+// Asli Get All Product
 exports.getAllProducts = catchAsyncErrors(async (req, res, next) => {
   const resultPerPage = 8;
   const productsCount = await Product.countDocuments();
@@ -48,6 +64,8 @@ exports.getAllProducts = catchAsyncErrors(async (req, res, next) => {
     .filter();
 
   let products = await apiFeature.query;
+  let categories = await Category.find();
+
 
   let filteredProductsCount = products.length;
 
@@ -57,12 +75,15 @@ exports.getAllProducts = catchAsyncErrors(async (req, res, next) => {
 
   res.status(200).json({
     success: true,
-    products,
+    products, 
+    categories,
     productsCount,
     resultPerPage,
     filteredProductsCount,
   });
 });
+
+
 
 // Get All Product (Admin)
 exports.getAdminProducts = catchAsyncErrors(async (req, res, next) => {
@@ -73,6 +94,7 @@ exports.getAdminProducts = catchAsyncErrors(async (req, res, next) => {
     products,
   });
 });
+
 
 // Get Product Details
 exports.getProductDetails = catchAsyncErrors(async (req, res, next) => {

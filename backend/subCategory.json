@@ -1,0 +1,62 @@
+[
+    {
+        "productSubcategory": "Cleaning Needs",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Baby Food",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Mother Care",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Skin Care",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Bath & Hair Care",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Diapers & Wipes",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Oral & Nasal Care",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Baby Pharma",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Feeding Accessories",
+        "subcategoryImage": "",
+        "productCategory": "Baby Care",
+        "productCategoryId": { "$oid": ""}
+    },
+    {
+        "productSubcategory": "Cleaning Needs",
+        "subcategoryImage": "",
+        "productCategory": "Vegetables & Fruits",
+        "productCategoryId": { "$oid": ""}
+    }
+]

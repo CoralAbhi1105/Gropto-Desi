@@ -1,0 +1,74 @@
+[
+    {
+        "productCategory": "Vegetables & Fruits",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-4.png"
+    },
+    {
+        "productCategory": "Snacks & Munchies",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-9.png"
+    },
+    {
+        "productCategory": "Breakfast & Instant Food",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-2_0.png"
+    },
+    {
+        "productCategory": "Dairy, Bread & Eggs",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-1.png"
+    },
+    {
+        "productCategory": "Cold Drinks & Juices",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-3.png"
+    },
+    {
+        "productCategory": "Tea, Coffee & Health Drinks",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-7.png"
+    },
+    {
+        "productCategory": "Sweet Tooth",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-5.png"
+    },
+    {
+        "productCategory": "Bakery & Biscuits",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-6.png"
+    },
+    {
+        "productCategory": "Atta, Rice & Dal",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-8.png"
+    },
+    {
+        "productCategory": "Masala, Oil & More",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-10_0.png"
+    },
+    {
+        "productCategory": "Sauces & Spreads",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-16.png"
+    },
+    {
+        "productCategory": "Organic & Gourmet",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-15.png"
+    },
+    {
+        "productCategory": "Paan Corner",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-16_0.png"
+    },
+    {
+        "productCategory": "Baby Care",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-14.png"
+    },
+    {
+        "productCategory": "Pharma & Wellness",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-13.png"
+    },
+    {
+        "productCategory": "Cleaning Essentials",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-17.png"
+    },
+    {
+        "productCategory": "Home & Office",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-19_0.png"
+    },
+    {
+        "productCategory": "Personal Care",
+        "categoryImage": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/layout-engine/2022-05/Slice-18.png"
+    }
+]

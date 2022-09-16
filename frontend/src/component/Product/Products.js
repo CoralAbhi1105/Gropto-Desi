@@ -10,7 +10,7 @@ import { useAlert } from "react-alert";
 import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
-const categories = [
+const subCategories = [
   "Laptop",
   "Footwear",
   "Bottom",
@@ -87,9 +87,9 @@ const Products = ({ match }) => {
               max={25000}
             />
 
-            <Typography>Categories</Typography>
+            <Typography>subCategories</Typography>
             <ul className="categoryBox">
-              {categories.map((category) => (
+              {subCategories.map((category) => (
                 <li
                   className="category-link"
                   key={category}
